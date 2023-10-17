@@ -1,0 +1,112 @@
+body{
+    padding: 10px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navtab{
+  
+font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.custom-button{
+    width: 193px;
+height: 38px;
+border-radius: 25px;
+color: white;
+border: none;
+}
+
+.callSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo-scroller {
+    margin-top: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.logo-container {
+    display: flex;
+    animation: scroll 20s linear infinite;
+    margin-top: 30px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logos img {
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.radialBanner{
+    margin-top: 200px;
+    height:200px;
+    padding: 10px;
+    background: radial-gradient(ellipse 50% 50% at left,  #ADDAFF 0%
+    , #0A3161 100%);
+  
+}
+.radialBanner2{
+    margin-top: 100px;
+    height:200px;
+    padding: 10px;
+    background: radial-gradient(ellipse 50% 50% at left,  #ADDAFF 0%
+    , #0A3161 100%);
+  
+}
+.gitlImg{
+    position: relative;
+    top: -36%;
+    margin-right: 40px;
+}
+
+@media (max-width: 767px) {
+    .gitlImg{
+        position: relative;
+        top: -35%;
+    height: 15rem;
+    }
+   .mob{
+    font-size: 8px;
+   }
+   .bigImg{
+    width: 400px;
+   }
+}
+.number{
+    font-family: "SF Pro Display";
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0;
+    color: #B41E45;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    margin: 0 auto 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
