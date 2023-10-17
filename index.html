@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Responsive Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>assignmentr</title>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="#">
             <img src="./assests/logo.png"  alt="Your Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -39,15 +39,16 @@
                          </a>
                 </li>
                 <li class="nav-item">
-                    <button class="btn btn-primary custom-button" style="background: #0A3161; margin-right: 1.5rem;">Button 1</button>
+                    <button class=" custom-button" style="background: #0A3161; margin-right: 1.5rem;">Button 1</button>
                 </li>
                 <li class="nav-item">
-                    <button class="btn btn-primary custom-button" style="background: #B41E45;">Button 2</button>
+                    <button class=" custom-button" style="background: #B41E45;">Button 2</button>
                 </li>
             </ul>
         </div>
     </nav>
-    
+    <section class="headPostFrame">
+        <section class="headPost">
        <section class="container">
         <div class="row">
             <div class="col-md-6">
@@ -108,9 +109,6 @@
                                     ">200 Reviews</p>
                                 </div>
                             </div>
-
-                
-                            <!-- Second Review -->
                             <div class="col-md-4">
                                 <div class="review-item text-center">
                                     <img  src="./assests/image 88 (1).png" alt="Company 2 Logo">
@@ -126,8 +124,6 @@
                                     ">150 Reviews</p>
                                 </div>
                             </div>
-                
-                            <!-- Third Review -->
                             <div class="col-md-4">
                                 <div class="review-item text-center">
                                     <img  src="./assests/image 88 (2).png" alt="Company 3 Logo">
@@ -147,17 +143,39 @@
                     </section>
                 </div>
             </div>
-
-            <!-- Image Part (2nd Part) -->
             <div class="col-md-6">
-                <div class="image-part">
-                    <img src="image1.jpg" alt="Image 1">
-                    <img src="image2.jpg" alt="Image 2">
-                    <img src="image3.jpg" alt="Image 3">
+                <div class="image-section">
+                    <div class="row1">
+                        <img src="./assests/Rectangle 3.png" alt="Image A">
+                        <div class="contentA">
+                            <button class="button">Shedule a call</button>
+                            <div class="imageAContent">
+                                <h2>Lorem ipsum dolor sit amet.</h2>
+                                <img src="./assests/download 2.svg" class="icon"></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <div class="column">
+                            <img src="./assests/Rectangle 4.png" alt="Image B">
+                        </div>
+                        <div class="column">
+                            <img src="./assests/Vector 1.png" alt="Image C">
+                            <div class="contentC">
+                                <button class="button">Shedule a call</button>
+                                <div class="imageCContent">
+                                    <h6>Buy printer from us.</h6>
+                                    <img src="./assests/download 1.svg" class="icon"></img>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    </section>
+</section>
 
     <section class="container logo-scroller">
         <h5 style="
@@ -186,9 +204,9 @@
                 <div class="col-md-12 d-flex justify-content-center">
                     <img class="gitlImg" src="./assests/wepik-export-2023092710150391hV 1.png" alt="">
                     <div class="text-center text-md-left ">
-                        <h1 class="mob" style="color: white; font-size: 30px; font-weight: 700;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                        <p class="mob" style="color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quisquam autem dolores nemo, iusto ab!</p>
-                        <button class="btn btn-primary custom-button" style="background: #B41E45;">Button 2</button>
+                        <h1 class="mob">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                        <p class="mob2" style="color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quisquam autem dolores nemo, iusto ab!</p>
+                        <button class="custom-button" style="background: #B41E45;">Button 2</button>
                     </div>
                 </div>
             </div>
@@ -265,8 +283,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Cell 2 -->
             <div class="col-md-6">
                 <div class="cell bg-light">
                     <div class="row">
@@ -298,7 +314,6 @@
             </div>
         </div>
         <div class="row">
-            <!-- Cell 3 -->
             <div class="col-md-6">
                 <div class="cell bg-light">
                     <div class="row">
@@ -328,8 +343,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Cell 4 -->
             <div class="col-md-6">
                 <div class="cell bg-light">
                     <div class="row">
@@ -388,9 +401,8 @@
                     </ul>
                 </div>
             </div>
-            <!-- Image on Right (Column) -->
             <div class="col-md-6">
-                <img src="./assests/Rectangle 644.png" alt="Image">
+                <img class="bulletImg" src="./assests/Rectangle 644.png" alt="Image">
             </div>
         </div>
     </section>
@@ -399,17 +411,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center py-4">
-                    <img class="gitlImg" src="./assests/image 91 (1).png" alt="">
+                    <img class="gitlImg gimg" src="./assests/image 91 (1).png" alt="">
                     <div class="text-center text-md-left">
-                        <h1 class="mob" style="color: white; font-size: 30px; font-weight: 700;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                        <h1 class="mob">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
                         <div class="d-flex align-items-center">
                         <div class="d-flex align-items-center ">
-                            <img class="mr-2" src="./assests/Group.png" alt="">
-                        <p style="color: white; margin: 0;">888 8888 88</p>
+                            <img class="mr-2 callicon" src="./assests/Group.png" alt="">
+                        <p class="callnum" style="color: white; margin: 0;">888 8888 88</p>
                     </div>
                     <div class="d-flex align-items-center mx-4">
-                        <img class="mr-2" src="./assests/Group.png" alt="">
-                    <p style="color: white; margin: 0;">888 8888 88</p>
+                        <img class="mr-2 callicon" src="./assests/Group.png" alt="">
+                    <p class="callnum" style="color: white; margin: 0;">888 8888 88</p>
                 </div>
             </div>
                     </div>
@@ -538,30 +550,224 @@
         </div>
     </section>
 
-    
-    
+    <section class="container my-4">
+        <div>
+            <h2 class="text-center" style="font-family: Montserrat;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 44px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #0A3161; margin-bottom: 20px;">Our Testimonial</h2>
+            <p style="font-family: Montserrat;
+            font-size: 16px;
+            text-align: center;
+            color:#303030;">Subheading 5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deleniti!</p>
 
-    <!-- <script>
-        window.addEventListener("DOMContentLoaded", () => {
-    const logoContainer = document.querySelector(".logo-container");
-    const logos = document.querySelectorAll(".logos img");
 
-    let currentIndex = 0;
-    const logoWidth = logos[0].offsetWidth + 20; // 20px for the gap
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonialCard">
+                            <div class="imageRow">
+                                <img src="./assests/Ellipse 29.png" class="testoImage">
+                                <img src="./assests/Ellipse 28.png" class="testoImage">
+                                <img src="./assests/Ellipse 25.svg" class="testoImageCentral">
+                                <img src="./assests/Ellipse 26.png" class="testoImage">
+                                <img src="./assests/Ellipse 27.png" class="testoImage">
+                            </div>
+                            <h3 style="font-family: Montserrat;
+                                font-size: 26px;
+                                font-weight: 700;
+                                line-height: 44px;
+                                letter-spacing: 0em;
+                                text-align: center;
+                                margin-bottom: 0;
+                                color: #0A3161;">Nevena illc
+                            </h3>
+                            <p style="font-family: Montserrat;
+                                font-size: 12px;
+                                text-align: center;
+                                color:#303030;">Customer Review</p>
+                            <div class="reviewContent">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, praesentium sequi voluptatum aliquam fugit, dolore perferendis qui officia soluta possimus, et amet distinctio nemo laborum!</p>
+                                <p class="stars">
+                                    ★★★★★
+                                </p>
+                            </div>
+                            <img src="./assests/comma start.svg" alt="" class="commaStart">
+                            <img src="./assests/Vector.svg" alt="" class="commaEnd">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonialCard">
+                            <div class="imageRow">
+                                <img src="./assests/Ellipse 29.png" class="testoImage">
+                                <img src="./assests/Ellipse 28.png" class="testoImage">
+                                <img src="./assests/Ellipse 25.svg" class="testoImageCentral">
+                                <img src="./assests/Ellipse 26.png" class="testoImage">
+                                <img src="./assests/Ellipse 27.png" class="testoImage">
+                            </div>
+                            <h3 style="font-family: Montserrat;
+                                font-size: 26px;
+                                font-weight: 700;
+                                line-height: 44px;
+                                letter-spacing: 0em;
+                                text-align: center;
+                                margin-bottom: 0;
+                                color: #0A3161;">Nevena illc
+                            </h3>
+                            <p style="font-family: Montserrat;
+                                font-size: 12px;
+                                text-align: center;
+                                color:#303030;">Customer Review</p>
+                            <div class="reviewContent">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, praesentium sequi voluptatum aliquam fugit, dolore perferendis qui officia soluta possimus, et amet distinctio nemo laborum!</p>
+                                <p class="stars">
+                                    ★★★★★
+                                </p>
+                            </div>
+                            <img src="./assests/comma start.svg" alt="" class="commaStart">
+                            <img src="./assests/Vector.svg" alt="" class="commaEnd">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonialCard">
+                            <div class="imageRow">
+                                <img src="./assests/Ellipse 29.png" class="testoImage">
+                                <img src="./assests/Ellipse 28.png" class="testoImage">
+                                <img src="./assests/Ellipse 25.svg" class="testoImageCentral">
+                                <img src="./assests/Ellipse 26.png" class="testoImage">
+                                <img src="./assests/Ellipse 27.png" class="testoImage">
+                            </div>
+                            <h3 style="font-family: Montserrat;
+                                font-size: 26px;
+                                font-weight: 700;
+                                line-height: 44px;
+                                letter-spacing: 0em;
+                                text-align: center;
+                                margin-bottom: 0;
+                                color: #0A3161;">Nevena illc
+                            </h3>
+                            <p style="font-family: Montserrat;
+                                font-size: 12px;
+                                text-align: center;
+                                color:#303030;">Customer Review</p>
+                            <div class="reviewContent">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, praesentium sequi voluptatum aliquam fugit, dolore perferendis qui officia soluta possimus, et amet distinctio nemo laborum!</p>
+                                <p class="stars">
+                                    ★★★★★
+                                </p>
+                            </div>
+                            <img src="./assests/comma start.svg" alt="" class="commaStart">
+                            <img src="./assests/Vector.svg" alt="" class="commaEnd">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" style="z-index: 999;"> <img src="./assests/Group 1325.png" alt=""></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true" style="z-index: 999;">
+                        <img src="./assests/Group 1324.png" alt="">
+                    </span>
+                    <span class="visually-hidden">next</span>
+                </button>
+            </div>
+        </div>
+    </section>
 
-    function scrollLogos() {
-        currentIndex = (currentIndex + 1) % logos.length;
-        logoContainer.style.transform = `translateX(-${currentIndex * logoWidth}px)`;
-        setTimeout(scrollLogos, 2000); // Change logo every 2 seconds
-    }
+    <footer>
+        <div  class="d-flex align-items-center justify-content-between firstfooter">
+          <div  class="d-flex align-items-center">
+            <img class="mx-4" src="./assests/Group.png" alt="">
+            <div>
+                <h3 >Lorem ipsum dolor sit amet </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quibusdam!</p>
+            </div>
+          </div>
+          <button class="custom-button mx-4" style="background: #B41E45;">Button 2</button>
+        </div>
+        <div style="background-color: #B41E45; height: 8px;"></div>
+        <div class="mainfooter p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer-left">
+                        <div class="footer-logo my-2">
+                            <img src="./assests/logo.png" alt="Logo">
+                        </div>
+                        <div class="contact-info">
+                            <p class="m-0" style="color: #B41E45; font-weight: 600;">Corportae Address:</p>
+                            <p style="color: #0A3161;"> 123 Main St, City, Country</p>
+                            <p style="color: #0A3161;"> <span style="color: #B41E45; font-weight: 600;"> Email:</span> info@example.com</p>
+                            <p style="color: #0A3161;"><span style="color: #B41E45; font-weight: 600;">Phone: </span>+1 (123) 456-7890</p>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h4 style="color: #B41E45;  text-decoration: underline;" class="text-underline">Info</h4>
+                                <ul class="footerlink">
+                                    <li>About Us</li>
+                                    <li>Team</li>
+                                    <li>Partners</li>
+                                    <li>Careers</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <h4 style="color: #B41E45; text-decoration: underline;">Solutions</h4>
+                                <ul class="footerlink">
+                                    <li>Service 1</li>
+                                    <li>Service 2</li>
+                                    <li>Service 3</li>
+                                    <li>Service 4</li>
+                                    <li>Service 5</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <h4 style="color: #B41E45;  text-decoration: underline;">Products</h4>
+                                <ul class="footerlink">
+                                    <li>Product 1</li>
+                                    <li>Product 2</li>
+                                    <li>Product 3</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <h4 style="color: #B41E45;  text-decoration: underline;"> Quick Links</h4>
+                                <ul class="footerlink">
+                                    <li>Contact</li>
+                                    <li>FAQ</li>
+                                    <li>Terms &amp; Conditions</li>
+                                    <li>Privacy Policy</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h4 style="color: #B41E45; text-decoration: underline;" >Locations: </h4>
+                        <p style="color: #0A3161;" class="locations">New York | London | Paris | Tokyo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerend"> 
+            <div class="container"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolor rerum cum unde voluptatibus nesciunt, molestias impedit quae optio laboriosam quia dicta accusamus incidunt rem porro nisi libero inventore itaque velit delectus. Reiciendis quisquam perspiciatis similique eum saepe, velit itaque, architecto vitae ut reprehenderit eos sed sit. Iure, consectetur enim? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, at.</div></div>
+        <div class="copy">
+            © All rights reserved – Trust Haven Solution
+        </div>
+    </footer>
 
-    scrollLogos();
-});
-
-    </script> -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
     
 </body>
 </html>

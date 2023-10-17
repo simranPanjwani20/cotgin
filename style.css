@@ -1,9 +1,132 @@
 body{
-    padding: 10px 0px;
+    padding: 10px 0px 0px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+.headPost{
+    background-image: url("./assests/Rectangle 2.png");
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    height: 963px;
+}
+
+.headPostFrame{
+    background-image: url("./assests/Frame\ 1000005097.png");
+    height: 963px;
+    background-repeat: no-repeat;
+}
+nav{
+    padding: 20px;
+    display: flex !important;
+    flex-direction: row !important ;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+.image-section {
+    width: 100%;
+}
+
+
+.image-section .row1 {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.image-section .row1 img {
+    width: 100%;
+    display: block;
+}
+
+ .contentA, .contentC {
+    /* top: 2.5%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    height: 50%;
+    width: 100%;
+}
+
+ .imageAContent , .imageCContent {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    margin: 0;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 15px;
+}
+
+.imageCContent {
+    width: 90%;
+    margin-bottom: 6px;
+}
+
+.imageCContent h6{
+    width: 40%;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.imageAContent h2{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.imageAContent img{
+    height: 52px;
+    width: 52px !important;
+    margin-right: 40px;
+}
+
+.imageCContent img{
+    height: 43px;
+    width: 42px !important;
+}
+
+.image-section .content .icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.image-section .row2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.image-section .column {
+    flex: 1;
+    position: relative;
+}
+
+.image-section .column img {
+    width: 100%;
+    display: block;
+}
+
+.image-section .button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 0;
+    padding: 10px 25px;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    color: #0A3161;
+}
 .navtab{
-  
 font-family: SF Pro Display;
 font-size: 16px;
 font-weight: 700;
@@ -74,25 +197,15 @@ border: none;
     , #0A3161 100%);
   
 }
+.mob{
+    color: white; font-size: 30px; font-weight: 700;
+}
 .gitlImg{
     position: relative;
     top: -36%;
     margin-right: 40px;
 }
 
-@media (max-width: 767px) {
-    .gitlImg{
-        position: relative;
-        top: -35%;
-    height: 15rem;
-    }
-   .mob{
-    font-size: 8px;
-   }
-   .bigImg{
-    width: 400px;
-   }
-}
 .number{
     font-family: "SF Pro Display";
     font-size: 55px;
@@ -109,4 +222,127 @@ border: none;
     align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.footerlink{
+    list-style: none;
+    padding: 0;
+    color: #0A3161;
+}
+.firstfooter{
+    background-color: #0A3161; 
+    width: 80%; 
+    border-radius: 10px; 
+    padding: 10px;
+    position: relative;
+    left: 10%;
+}
+.firstfooter h3{
+    color: white; font-size: 35px; font-weight: 700;
+}
+.firstfooter p{
+    color: #FEAF00; font-weight: 500; font-size: 16px;
+}
+.footerend{
+    text-align: center; 
+    background-color: #B41E45;
+    color: white;
+    padding: 10px;
+}
+.copy{
+    text-align: center;
+    background-color: #0A3161;
+    color: white;
+   
+}
+.testimonialCard{
+    font-family: "Iter";
+    width: 700px;
+    height: fit-content;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    position: relative;
+}
 
+.testimonialCard .imageRow{
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.testimonialCard .imageRow img{
+    max-height: 90px;
+}
+
+.reviewContent{
+    margin: 20px 128px;
+}
+
+.reviewContent .stars{
+    color: rgb(223, 223, 61);
+    font-size: 18px;
+    margin: auto;
+    width: fit-content;
+}
+
+.commaStart{
+    position: absolute;
+    top:50%;
+    left: 20%;
+}
+.commaEnd{
+    position: absolute;
+    bottom:20%;
+    right: 20%;
+}
+
+.carousel-control-next{
+    border: 10px solid black;    
+}
+@media (max-width: 767px) {
+    .radialBanner{
+        height: 150px;
+    }
+    .gitlImg{
+        position: relative;
+        top: -27%;
+    height: 12rem;
+    margin-right: 0;
+    z-index: 1;
+    }
+   .mob{
+    font-size: 12px;
+   }
+   .mob2{
+ font-size:  8px;
+   }
+   .bigImg{
+    width: 300px;
+   }
+   .bulletImg{
+    width: 300px;
+}
+.callicon{
+    width: 25px;
+}
+.callnum{
+    font-size: 8px;
+}
+.gimg{
+    top: -38%;
+    width: 12rem;
+}
+.radialBanner2{
+    height: 150px;
+}
+.firstfooter{
+    border-radius: 0;
+    width: 100%;
+    left: 0;
+}
+.firstfooter h3{
+    font-size: 14px;
+}
+.firstfooter p{
+    font-size: 8px;
+}
+}
