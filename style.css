@@ -171,7 +171,13 @@ nav {
   margin-top: 30px;
   width: 100%;
 }
-
+.headinglogo{
+  font-size: 35px;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: left;
+        color:  #0A3161;
+}
 .logos {
   display: flex;
   align-items: center;
@@ -378,7 +384,9 @@ nav {
     margin-right: 0;
     z-index: 1;
   }
-
+  .headinglogo{
+    font-size: 20px;
+  }
   .mob {
     font-size: 12px;
   }
