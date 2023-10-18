@@ -1,351 +1,476 @@
-body{
-    padding: 10px 0px 0px 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-.headPost{
-    background-image: url("./assests/Rectangle 2.png");
-    /* background-size: contain; */
-    background-repeat: no-repeat;
-    height: 963px;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;400;600;700&family=Roboto:wght@300;400;700&display=swap");
+
+body {
+  padding: 10px 0px 0px 0px;
+  font-family: Inter, Geneva, Tahoma, sans-serif;
 }
 
-.headPostFrame{
-    background-image: url("./assests/Frame\ 1000005097.png");
-    height: 963px;
-    background-repeat: no-repeat;
+* {
+  margin: 0;
+  padding: 0;
 }
-nav{
-    padding: 20px;
-    display: flex !important;
-    flex-direction: row !important ;
-    justify-content: space-between !important;
-    align-items: center !important;
+
+.headPost {
+  background-image: url("./assests/Rectangle 2.png");
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  height: 963px;
 }
+
+.headPostFrame {
+  background-image: url("./assests/Frame\ 1000005097.png");
+  height: 963px;
+  background-repeat: no-repeat;
+}
+
+nav {
+  padding: 20px;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
 .image-section {
-    width: 100%;
+  width: 100%;
 }
-
 
 .image-section .row1 {
-    margin-bottom: 20px;
-    position: relative;
+  margin-bottom: 20px;
+  position: relative;
 }
 
 .image-section .row1 img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
- .contentA, .contentC {
-    /* top: 2.5%; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    color: #fff;
-    height: 50%;
-    width: 100%;
+.contentA,
+.contentC {
+  /* top: 2.5%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+  height: 50%;
+  width: 100%;
 }
 
- .imageAContent , .imageCContent {
-    position: absolute;
-    z-index: 999;
-    width: 100%;
-    margin: 0;
-    bottom: 20px;
-    left: 20px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    margin-bottom: 15px;
+.imageAContent,
+.imageCContent {
+  position: absolute;
+  z-index: 999;
+  width: calc(100% - 10px);
+  margin: 0;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 15px;
 }
 
 .imageCContent {
-    width: 90%;
-    margin-bottom: 6px;
+  width: 90%;
+  margin-bottom: 6px;
 }
 
-.imageCContent h6{
-    width: 40%;
-    font-size: 16px;
-    font-family: "Inter";
-    font-weight: 700;
+.imageCContent h6 {
+  width: 40%;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 700;
 }
 
-.imageAContent h2{
-    width: 50%;
-    margin-bottom: 20px;
+.imageAContent h2 {
+  width: 50%;
+  margin-bottom: 20px;
 }
 
-.imageAContent img{
-    height: 52px;
-    width: 52px !important;
-    margin-right: 40px;
+.imageAContent img {
+  position: absolute;
+  right: 5%;
+  height: 52px;
+  width: 52px !important;
 }
 
-.imageCContent img{
-    height: 43px;
-    width: 42px !important;
+.imageCContent img {
+  height: 43px;
+  width: 42px !important;
 }
 
 .image-section .content .icon {
-    font-size: 24px;
-    cursor: pointer;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 .image-section .row2 {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .image-section .column {
-    flex: 1;
-    position: relative;
+  flex: 1;
+  position: relative;
 }
 
 .image-section .column img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 .image-section .button {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    border: 0;
-    padding: 10px 25px;
-    font-family: "Inter";
-    font-size: 16px;
-    font-weight: 700;
-    color: #0A3161;
-}
-.navtab{
-font-family: SF Pro Display;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: left;
-
-}
-.custom-button{
-    width: 193px;
-height: 38px;
-border-radius: 25px;
-color: white;
-border: none;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 0;
+  padding: 10px 25px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 700;
+  color: #0a3161;
+  text-align: left;
 }
 
-.callSection{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+.navtab {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
 }
+
+.custom-button {
+  width: 193px;
+  height: 38px;
+  border-radius: 25px;
+  color: white;
+  border: none;
+}
+
+.callSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .logo-scroller {
-    margin-top: 50px;
-    overflow: hidden;
-    white-space: nowrap;
+  margin-top: 50px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .logo-container {
-    display: flex;
-    animation: scroll 10s linear infinite;
-    margin-top: 30px;
+  display: flex;
+  animation: scroll 10s linear infinite;
+  margin-top: 30px;
+  width: 100%;
 }
 
 .logos {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .logos img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.bigImg {
+  display: block;
+  margin: auto;
 }
 
 @keyframes scroll {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
-.radialBanner{
-    margin-top: 200px;
-    height:200px;
-    padding: 10px;
-    background: radial-gradient(ellipse 50% 50% at left,  #ADDAFF 0%
-    , #0A3161 100%);
-  
-}
-.radialBanner2{
-    margin-top: 100px;
-    height:200px;
-    padding: 10px;
-    background: radial-gradient(ellipse 50% 50% at left,  #ADDAFF 0%
-    , #0A3161 100%);
-  
-}
-.mob{
-    color: white; font-size: 30px; font-weight: 700;
-}
-.gitlImg{
-    position: relative;
-    top: -36%;
-    margin-right: 40px;
+.radialBanner {
+  margin-top: 200px;
+  height: 200px;
+  padding: 10px;
+  background: radial-gradient(
+    ellipse 50% 50% at left,
+    #addaff 0%,
+    #0a3161 100%
+  );
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.number{
-    font-family: "SF Pro Display";
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 66px;
-    letter-spacing: 0;
-    color: #B41E45;
-    width: 90px;
-    height: 90px;
-    border-radius: 10px;
-    margin: 0 auto 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-.footerlink{
-    list-style: none;
-    padding: 0;
-    color: #0A3161;
-}
-.firstfooter{
-    background-color: #0A3161; 
-    width: 80%; 
-    border-radius: 10px; 
-    padding: 10px;
-    position: relative;
-    left: 10%;
-}
-.firstfooter h3{
-    color: white; font-size: 35px; font-weight: 700;
-}
-.firstfooter p{
-    color: #FEAF00; font-weight: 500; font-size: 16px;
-}
-.footerend{
-    text-align: center; 
-    background-color: #B41E45;
-    color: white;
-    padding: 10px;
-}
-.copy{
-    text-align: center;
-    background-color: #0A3161;
-    color: white;
-   
-}
-.testimonialCard{
-    font-family: "Iter";
-    width: 700px;
-    height: fit-content;
-    border-radius: 10px;
-    margin: 30px auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    position: relative;
+.radialBanner2 {
+  margin-top: 100px;
+  height: 200px;
+  padding: 10px;
+  background: radial-gradient(
+    ellipse 50% 50% at left,
+    #addaff 0%,
+    #0a3161 100%
+  );
 }
 
-.testimonialCard .imageRow{
-    width: fit-content;
-    margin: 20px auto;
+.bulletImg {
+  display: block;
+  margin: auto;
 }
 
-.testimonialCard .imageRow img{
-    max-height: 90px;
+.mob {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
 }
 
-.reviewContent{
-    margin: 20px 128px;
+.gitlImg {
+  position: relative;
+  top: -36%;
+  margin-right: 40px;
 }
 
-.reviewContent .stars{
-    color: rgb(223, 223, 61);
-    font-size: 18px;
-    margin: auto;
-    width: fit-content;
+.number {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0;
+  color: #b41e45;
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  margin: 0 auto 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.commaStart{
-    position: absolute;
-    top:50%;
-    left: 20%;
-}
-.commaEnd{
-    position: absolute;
-    bottom:20%;
-    right: 20%;
+.footerlink {
+  list-style: none;
+  padding: 0;
+  color: #0a3161;
 }
 
-.carousel-control-next{
-    border: 10px solid black;    
+.firstfooter {
+  background-color: #0a3161;
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  left: 10%;
 }
+
+.firstfooter h3 {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.firstfooter p {
+  color: #feaf00;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.footerend {
+  text-align: center;
+  background-color: #b41e45;
+  color: white;
+  padding: 10px;
+}
+
+.copy {
+  text-align: center;
+  background-color: #0a3161;
+  color: white;
+}
+
+.testimonialCard {
+  font-family: "Inter";
+  width: 700px;
+  height: fit-content;
+  border-radius: 10px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  position: relative;
+}
+
+.testimonialCard .imageRow {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.testimonialCard .imageRow img {
+  max-height: 90px;
+}
+
+.reviewContent {
+  margin: 20px 128px;
+}
+
+.reviewContent .stars {
+  color: #feaf00;
+  font-size: 24px;
+  margin: auto;
+  width: fit-content;
+}
+
+.commaStart {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.commaEnd {
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+}
+
+.carousel-control-next {
+  border: 10px solid black;
+}
+
 @media (max-width: 767px) {
-    .radialBanner{
-        height: 150px;
-    }
-    .gitlImg{
-        position: relative;
-        top: -27%;
+  .custom-button {
+    margin: 10px 0;
+    margin-bottom: 0;
+  }
+  .bannerbtn {
+    height: auto;
+    width: fit-content;
+    padding: 10px;
+    margin: 0;
+    font-size: 10px;
+  }
+  .imageAContent img {
+    height: 32px;
+  }
+
+  .image-section h6 {
+    width: 60%;
+    font-size: 12px;
+  }
+
+  .image-section .button {
+    font-size: 12px;
+  }
+
+  .radialBanner {
+    height: 150px;
+  }
+
+  .gitlImg {
+    position: relative;
+    top: -27%;
     height: 12rem;
     margin-right: 0;
     z-index: 1;
-    }
-   .mob{
+  }
+
+  .mob {
     font-size: 12px;
-   }
-   .mob2{
- font-size:  8px;
-   }
-   .bigImg{
-    width: 300px;
-   }
-   .bulletImg{
-    width: 300px;
-}
-.callicon{
-    width: 25px;
-}
-.callnum{
+  }
+
+  .mob2 {
     font-size: 8px;
-}
-.gimg{
+    margin-bottom: 5px;
+  }
+
+  .bigImg {
+    width: 300px;
+  }
+
+  .bulletImg {
+    width: 300px;
+  }
+
+  .callicon {
+    width: 14px;
+    margin: 2px;
+  }
+
+  .callnum {
+    font-size: 8px;
+  }
+
+  .gimg {
     top: -38%;
     width: 12rem;
-}
-.radialBanner2{
+  }
+
+  .radialBanner2 {
     height: 150px;
-}
-.firstfooter{
+  }
+
+  .firstfooter {
     border-radius: 0;
     width: 100%;
     left: 0;
-}
-.firstfooter h3{
+  }
+
+  .firstfooter h3 {
     font-size: 14px;
-}
-.firstfooter p{
+  }
+
+  .firstfooter p {
     font-size: 8px;
-}
-.logo-scroller {
+  }
+
+  .imageCContent .icon {
+    height: 22px;
+    margin-right: -2.5%;
+  }
+
+  .logo-scroller {
     margin-top: 500px;
-}
+  }
+
+  .testimonialCard {
+    width: 80%;
+  }
+
+  .testimonialCard .imageRow {
+    width: 70%;
+  }
+
+  .testimonialCard .imageRow img {
+    max-height: 45px;
+  }
+
+  .testoImage {
+    height: 25px;
+  }
+  .reviewContent {
+    margin: auto;
+    text-align: center;
+  }
+  .commaStart {
+    position: absolute;
+    top: 45%;
+    left: 3%;
+  }
+  .commaEnd {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+  }
+  .printers {
+    margin: auto;
+    display: block;
+  }
+  .mobBanner {
+    padding: 10px !important;
+  }
 }

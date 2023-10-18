@@ -1,185 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <title>assignmentr</title>
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="#">
-            <img src="./assests/logo.png"  alt="Your Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link navtab "  style="color: #0A3161; margin-right: 1.5rem;" href="#">Home
+    <nav class="navbar navbar-expand-lg bg-body container" style="margin: auto;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assests/logo.png" alt="Your Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: end;">
+                <ul class="navbar-nav ml-auto" style="font-weight: 700;">
+                    <li class="nav-item">
+                        <a class="nav-link navtab " style="color: #0A3161; margin-right: 1.5rem; " href="#">Home
                         </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link navtab " style="color: #0A3161; margin-right: 1.5rem;" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link navtab " style="color: #B41E45; margin-right: 1.5rem; " href="#">Solutions 
-                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13 1L7.70711 6.68539C7.31658 7.10487 6.68342 7.10487 6.29289 6.68539L1 1" stroke="#B41E45" stroke-width="1.5" stroke-linecap="round"/>
-                        </svg>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link navtab " style="color: #0A3161; margin-right: 1.5rem;" href="#">Gadget Support <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13 1L7.70711 6.68539C7.31658 7.10487 6.68342 7.10487 6.29289 6.68539L1 1" stroke="#0A3161" stroke-width="1.5" stroke-linecap="round"/>
-                        </svg>
-                         </a>
-                </li>
-                <li class="nav-item">
-                    <button class=" custom-button" style="background: #0A3161; margin-right: 1.5rem;">Button 1</button>
-                </li>
-                <li class="nav-item">
-                    <button class=" custom-button" style="background: #B41E45;">Button 2</button>
-                </li>
-            </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navtab " style="color: #0A3161; margin-right: 1.5rem;" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navtab " style="color: #B41E45; margin-right: 1.5rem; " href="#">Solutions
+                            <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 1L7.70711 6.68539C7.31658 7.10487 6.68342 7.10487 6.29289 6.68539L1 1" stroke="#B41E45" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navtab " style="color: #0A3161; margin-right: 1.5rem;" href="#">Gadget Support <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 1L7.70711 6.68539C7.31658 7.10487 6.68342 7.10487 6.29289 6.68539L1 1" stroke="#0A3161" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <button class=" custom-button" style="background: #0A3161; margin-right: 1.5rem; font-weight: 700;">BOOK APPOINTMENT</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class=" custom-button" style="background: #B41E45; font-weight: 700;">Buy a device</button>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <section class="headPostFrame my-4">
         <section class="headPost">
-       <section class="container">
-        <div class="d-flex align-items-center justify-content-between flex-wrap">
-            <div class="col-md-6 px-4">
-                <div class="text-part">
-                    <h3 style="color:#0A3161; font-family: Poppins;
+            <section class="container">
+                <div class="d-flex align-items-center justify-content-between flex-wrap">
+                    <div class="col-md-6 px-4">
+                        <div class="text-part">
+                            <h3 style="color:#0A3161; font-family: Poppins;
                     font-size: 27px;
                     font-weight: 400;
                     line-height: 41px;
                     letter-spacing: 0em;
                     text-align: left;">Lorem ipsum dolor sit amet consectetu.</h3>
-                    <h1 style="color: #0A3161;font-family: Poppins;
+                            <h1 style="color: #0A3161;font-family: Poppins;
                     font-size: 50px;
                     font-weight: 800;
                     line-height: 75px;
                     letter-spacing: 0em;
                     text-align: left;                    
                     ">Lorem ipsum dolor sit.</h1>
-                    <p style="font-family: Roboto;
+                            <p style="font-family: Roboto;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 24px;
                     letter-spacing: 0em;
                     text-align: left; color:#6E6E73;
                     ">Paragraph text goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quos perferendis voluptatem exercitationem ea cumque, cupiditate magni nesciunt deserunt similique numquam. A dicta labore quia, eos asperiores ipsum quibusdam corporis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dicta nisi quam, fugit tempora esse!</p>
-                    <div class="callSection" style="margin-bottom: 30px;">
-                        <button class="btn btn-primary custom-button" style="background: #0A3161; margin-right: 1.5rem;">Button 1</button>
-                        <div>
-                        <p style="color: #6E6E73;
+                            <div class="callSection" style="margin-bottom: 30px;">
+                                <button class="btn btn-primary custom-button" style="background: #0A3161; margin-right: 1.5rem;">Button 1</button>
+                                <div>
+                                    <p style="color: #6E6E73;
                         font-size: 12px;
                         font-weight: 400;
                         line-height: 14px;
                         text-align: left;
                         margin: 2px;
                         ">Need to speak With US? </p>
-                        <p style="color: #0A3161;
+                                    <p style="color: #0A3161;
                         font-size: 16px;
                         font-weight: 600;
                         line-height: 19px;
                         text-align: left; 
                         margin: 2px;                       
                         ">Call (310) 289-2085</p>
-                        </div>
-                    </div>
-                    <section class="container review-section mt-4 p-0">
-                        <div class="row d-flex justify-content-center align-items-center">
-                            <div class="col-md-4">
-                                <div class="review-item text-center">
-                                    <img  src="./assests/image 88.png" alt="Company 1 Logo">
-                                    <div class="review-stars" >
-                                      4.0  ★★★★☆
-                                    </div>
-                                    <p style="color: #1D1D1F; 
+                                </div>
+                            </div>
+                            <section class="container review-section mt-4 p-0">
+                                <div class="row d-flex justify-content-center align-items-center">
+                                    <div class="col-md-4">
+                                        <div class="review-item text-center">
+                                            <img src="./assests/image 88.png" alt="Company 1 Logo">
+                                            <div class="review-stars">
+                                                4.0 ★★★★☆
+                                            </div>
+                                            <p style="color: #1D1D1F; 
                                     font-family: Poppins;
                                     font-size: 16px;
                                     font-weight: 400;
                                     line-height: 22px;
                                     text-align: center;
                                     ">200 Reviews</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="review-item text-center">
-                                    <img  src="./assests/image 88 (1).png" alt="Company 2 Logo">
-                                    <div class="review-stars" >
-                                       3.0 ★★★☆☆
+                                        </div>
                                     </div>
-                                    <p style="color: #1D1D1F; 
+                                    <div class="col-md-4">
+                                        <div class="review-item text-center">
+                                            <img src="./assests/image 88 (1).png" alt="Company 2 Logo">
+                                            <div class="review-stars">
+                                                3.0 ★★★☆☆
+                                            </div>
+                                            <p style="color: #1D1D1F; 
                                     font-family: Poppins;
                                     font-size: 16px;
                                     font-weight: 400;
                                     line-height: 22px;
                                     text-align: center;
                                     ">150 Reviews</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="review-item text-center">
-                                    <img  src="./assests/image 88 (2).png" alt="Company 3 Logo">
-                                    <div class="review-stars">
-                                      5.0  ★★★★★
+                                        </div>
                                     </div>
-                                    <p style="color: #1D1D1F; 
+                                    <div class="col-md-4">
+                                        <div class="review-item text-center">
+                                            <img src="./assests/image 88 (2).png" alt="Company 3 Logo">
+                                            <div class="review-stars">
+                                                5.0 ★★★★★
+                                            </div>
+                                            <p style="color: #1D1D1F; 
                                     font-family: Poppins;
                                     font-size: 16px;
                                     font-weight: 400;
                                     line-height: 22px;
                                     text-align: center;
                                     ">350 Reviews</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="image-section">
+                            <div class="row1">
+                                <img src="./assests/Rectangle 3.png" alt="Image A">
+                                <div class="contentA">
+                                    <button class="button">Shedule a call</button>
+                                    <div class="imageAContent">
+                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <img src="./assests/download 2.svg" class="icon"></img>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row2">
+                                <div class="column">
+                                    <img src="./assests/Rectangle 4.png" alt="Image B">
+                                </div>
+                                <div class="column">
+                                    <img src="./assests/Vector 1.png" alt="Image C">
+                                    <div class="contentC">
+                                        <button class="button">Buy Products</button>
+                                        <div class="imageCContent">
+                                            <h6>Buy printer from us.</h6>
+                                            <img src="./assests/download 1.svg" class="icon"></img>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="image-section">
-                    <div class="row1">
-                        <img src="./assests/Rectangle 3.png" alt="Image A">
-                        <div class="contentA">
-                            <button class="button">Shedule a call</button>
-                            <div class="imageAContent">
-                                <h2>Lorem ipsum dolor sit amet.</h2>
-                                <img src="./assests/download 2.svg" class="icon"></img>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row2">
-                        <div class="column">
-                            <img src="./assests/Rectangle 4.png" alt="Image B">
-                        </div>
-                        <div class="column">
-                            <img src="./assests/Vector 1.png" alt="Image C">
-                            <div class="contentC">
-                                <button class="button">Shedule a call</button>
-                                <div class="imageCContent">
-                                    <h6>Buy printer from us.</h6>
-                                    <img src="./assests/download 1.svg" class="icon"></img>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
+        </section>
     </section>
-    </section>
-</section>
 
     <section class="container logo-scroller">
         <h5 style="
-        font-family: SF Pro Display;
         font-size: 35px;
         font-weight: 700;
         line-height: 42px;
@@ -205,10 +211,10 @@
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center">
                     <img class="gitlImg" src="./assests/wepik-export-2023092710150391hV 1.png" alt="">
-                    <div class="text-center text-md-left ">
+                    <div class="text-left text-md-left ">
                         <h1 class="mob">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                        <p class="mob2" style="color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quisquam autem dolores nemo, iusto ab!</p>
-                        <button class="custom-button" style="background: #B41E45;">Button 2</button>
+                        <p class="mob2" style="color: white;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci quisquam corrupti consectetur doloremque rem maiores molestias, incidunt minima quibusdam eligendi.</p>
+                        <button class="custom-button bannerbtn" style="background: #B41E45;">Button 2</button>
                     </div>
                 </div>
             </div>
@@ -240,9 +246,9 @@
                 <div class="lower-part">
                     <div class="row">
                         <div class="col-md-12">
-                    <img class="bigImg" src="./assests/Rectangle 641.png" alt="Image">
-                </div>
-                </div>
+                            <img class="bigImg" src="./assests/Rectangle 641.png" alt="Image">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -259,16 +265,16 @@
         margin-bottom: 50px;
         ">Lorem ipsum dolor sit amet consectetur.</h2>
         <section class="container">
-        <div class="row">
-            <div class="col-md-6 py-2">
-                <div class="cell bg-light">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="./assests/Rectangle 24 (1).png" alt="Image 1">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="text-content">
-                                <h3 style="color: #1D1D1F;
+            <div class="row">
+                <div class="col-md-6 py-2">
+                    <div class="cell bg-light">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="printers" src="./assests/Rectangle 24 (1).png" alt="Image 1">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="text-content">
+                                    <h3 style="color: #1D1D1F;
                                 font-family: Montserrat;
                                 font-size: 20px;
                                 font-weight: 700;
@@ -276,7 +282,7 @@
                                 letter-spacing: 0em;
                                 text-align: left; 
                                 ">Lorem, ipsum dolor.</h3>
-                                <p style="color: #303030;
+                                    <p style="color: #303030;
                                 font-family: Montserrat;
                                 font-size: 16px;
                                 font-weight: 400;
@@ -284,20 +290,20 @@
                                 letter-spacing: 0em;
                                 text-align: left; 
                                 ">Subheading 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusantium nisi quia esse accusamus beatae, placeat facere vitae, veniam deleniti ex molestias magni i numquam? Ipsum, ratione.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 py-2">
-                <div class="cell bg-light">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="./assests/Rectangle 24 (1).png" alt="Image 1">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="text-content">
-                                <h3 style="color: #1D1D1F;
+                <div class="col-md-6 py-2">
+                    <div class="cell bg-light">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="printers" src="./assests/Rectangle 24 (1).png" alt="Image 1">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="text-content">
+                                    <h3 style="color: #1D1D1F;
                                 font-family: Montserrat;
                                 font-size: 20px;
                                 font-weight: 700;
@@ -305,7 +311,7 @@
                                 letter-spacing: 0em;
                                 text-align: left; 
                                 ">Lorem, ipsum dolor.</h3>
-                                <p style="color: #303030;
+                                    <p style="color: #303030;
                                 font-family: Montserrat;
                                 font-size: 16px;
                                 font-weight: 400;
@@ -313,22 +319,22 @@
                                 letter-spacing: 0em;
                                 text-align: left; 
                                 ">Subheading 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusantium nisi quia esse accusamus beatae, placeat facere vitae, veniam deleniti ex molestias magni i numquam? Ipsum, ratione.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 py-2">
-                <div class="cell bg-light">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="./assests/Rectangle 24 (1).png" alt="Image 1">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="text-content">
-                                <h3 style="color: #1D1D1F;
+            <div class="row">
+                <div class="col-md-6 py-2">
+                    <div class="cell bg-light">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="printers" src="./assests/Rectangle 24 (1).png" alt="Image 1">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="text-content">
+                                    <h3 style="color: #1D1D1F;
                                 font-family: Montserrat;
                                 font-size: 20px;
                                 font-weight: 700;
@@ -336,7 +342,7 @@
                                 letter-spacing: 0em;
                                 text-align: left; 
                                 ">Lorem, ipsum dolor.</h3>
-                                <p style="color: #303030;
+                                    <p style="color: #303030;
                                 font-family: Montserrat;
                                 font-size: 16px;
                                 font-weight: 400;
@@ -344,20 +350,20 @@
                                 letter-spacing: 0em;
                                 text-align: left; 
                                 ">Subheading 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusantium nisi quia esse accusamus beatae, placeat facere vitae, veniam deleniti ex molestias magni i numquam? Ipsum, ratione.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 py-2">
-                <div class="cell bg-light">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="./assests/Rectangle 24 (1).png" alt="Image 1">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="text-content">
-                                <h3 style="color: #1D1D1F;
+                <div class="col-md-6 py-2">
+                    <div class="cell bg-light">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="printers" src="./assests/Rectangle 24 (1).png" alt="Image 1">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="text-content">
+                                    <h3 style="color: #1D1D1F;
                                 font-family: Montserrat;
                                 font-size: 20px;
                                 font-weight: 700;
@@ -365,7 +371,7 @@
                                 letter-spacing: 0em;
                                 text-align: left; 
                                 ">Lorem, ipsum dolor.</h3>
-                                <p style="color: #303030;
+                                    <p style="color: #303030;
                                 font-family: Montserrat;
                                 font-size: 16px;
                                 font-weight: 400;
@@ -373,13 +379,13 @@
                                 letter-spacing: 0em;
                                 text-align: left; 
                                 ">Subheading 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusantium nisi quia esse accusamus beatae, placeat facere vitae, veniam deleniti ex molestias magni i numquam? Ipsum, ratione.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     </section>
 
     <section class="container my-4">
@@ -403,7 +409,7 @@
                         <li>Bullet Point 1 Lorem, ipsum dolor.</li>
                         <li>Bullet Point 1 Lorem, ipsum dolor.</li>
                         <li>Bullet Point 1 Lorem, ipsum dolor.</li>
-                        <li>Bullet Point 1 Lorem, ipsum dolor.</li>                     
+                        <li>Bullet Point 1 Lorem, ipsum dolor.</li>
                     </ul>
                 </div>
             </div>
@@ -416,20 +422,20 @@
     <section class="radialBanner2">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 d-flex justify-content-center py-4">
+                <div class="col-md-12 d-flex justify-content-center py-4 mobBanner">
                     <img class="gitlImg gimg" src="./assests/image 91 (1).png" alt="">
-                    <div class="text-center text-md-left">
-                        <h1 class="mob">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                        <div class="d-flex align-items-center">
-                        <div class="d-flex align-items-center ">
-                            <img class="mr-2 callicon" src="./assests/Group.png" alt="">
-                        <p class="callnum" style="color: white; margin: 0;">888 8888 88</p>
-                    </div>
-                    <div class="d-flex align-items-center mx-4">
-                        <img class="mr-2 callicon" src="./assests/Group.png" alt="">
-                    <p class="callnum" style="color: white; margin: 0;">888 8888 88</p>
-                </div>
-            </div>
+                    <div class="text-left text-md-left">
+                        <h1 class="mob">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, similique.</h1>
+                        <div class="d-flex align-items-center my-2">
+                            <div class="d-flex align-items-center ">
+                                <img class="mr-2 callicon" src="./assests/Group.png" alt="">
+                                <p class="callnum" style="color: white; margin: 0;">888 8888 88</p>
+                            </div>
+                            <div class="d-flex align-items-center mx-4">
+                                <img class="mr-2 callicon" src="./assests/Group.png" alt="">
+                                <p class="callnum" style="color: white; margin: 0;">888 8888 88</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -473,7 +479,7 @@
                         line-height: 44px;
                         letter-spacing: 0em;
                         text-align: center;
-                        color: #0A3161;" >Heading 2</h3>
+                        color: #0A3161;">Heading 2</h3>
                         <p style="font-family: Montserrat;
                         font-size: 16px;
                         text-align: center;
@@ -685,15 +691,15 @@
     </section>
 
     <footer>
-        <div  class="d-flex align-items-center justify-content-between firstfooter">
-          <div  class="d-flex align-items-center">
-            <img class="mx-4" src="./assests/Group.png" alt="">
-            <div>
-                <h3 >Lorem ipsum dolor sit amet </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quibusdam!</p>
+        <div class="d-flex align-items-center justify-content-between firstfooter">
+            <div class="d-flex align-items-center">
+                <img class="mx-4" src="./assests/Group.png" alt="">
+                <div>
+                    <h3>Lorem ipsum dolor sit amet </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quibusdam!</p>
+                </div>
             </div>
-          </div>
-          <button class="custom-button mx-4" style="background: #B41E45;">Button 2</button>
+            <button class="custom-button mx-4" style="background: #B41E45;">Button 2</button>
         </div>
         <div style="background-color: #B41E45; height: 8px;"></div>
         <div class="mainfooter p-4">
@@ -755,25 +761,23 @@
                                 </ul>
                             </div>
                         </div>
-                        <h4 style="color: #B41E45; text-decoration: underline;" >Locations: </h4>
+                        <h4 style="color: #B41E45; text-decoration: underline;">Locations: </h4>
                         <p style="color: #0A3161;" class="locations">New York | London | Paris | Tokyo</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footerend"> 
-            <div class="container"> 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolor rerum cum unde voluptatibus nesciunt, molestias impedit quae optio laboriosam quia dicta accusamus incidunt rem porro nisi libero inventore itaque velit delectus. Reiciendis quisquam perspiciatis similique eum saepe, velit itaque, architecto vitae ut reprehenderit eos sed sit. Iure, consectetur enim? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, at.</div></div>
+        <div class="footerend">
+            <div class="container">
+                <span><b>Disclainer:</b> </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolor rerum cum unde voluptatibus nesciunt, molestias impedit quae optio laboriosam quia dicta accusamus incidunt rem porro nisi libero inventore itaque velit delectus. Reiciendis quisquam perspiciatis similique eum saepe, velit itaque, architecto vitae ut reprehenderit eos sed sit. Iure, consectetur enim? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, at.</div>
+        </div>
         <div class="copy">
             © All rights reserved – Trust Haven Solution
         </div>
     </footer>
-
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
-    
+
 </body>
+
 </html>
